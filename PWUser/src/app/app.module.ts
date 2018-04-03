@@ -1,16 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http'; 
 
+import { MatToolbarModule, MatCardModule  } from '@angular/material';
 
 import { AppComponent } from './app.component';
+import { UserCardComponent } from './user-card/user-card.component';
+import { UserCardService } from './user-card/user-card.service';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UserCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    MatToolbarModule,
+    MatCardModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
