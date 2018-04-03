@@ -1,0 +1,45 @@
+{
+  "configVersion": 1,
+  "index": "C:/Program Files/Git/pwu/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "C:/Program Files/Git/pwu/favicon.ico",
+        "C:/Program Files/Git/pwu/index.html",
+        "C:/Program Files/Git/pwu/inline.318b50c57b4eba3d437b.bundle.js",
+        "C:/Program Files/Git/pwu/main.8701736ab121a981d39b.bundle.js",
+        "C:/Program Files/Git/pwu/polyfills.77d59861e39435768676.bundle.js",
+        "C:/Program Files/Git/pwu/styles.03b5f5f64d9c4bed131d.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "C:/Program Files/Git/pwu/assets/icon-128x128.png",
+        "C:/Program Files/Git/pwu/assets/icon-152x152.png",
+        "C:/Program Files/Git/pwu/assets/icon-256x256.png",
+        "C:/Program Files/Git/pwu/assets/icon-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "C:/Program Files/Git/pwu/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "C:/Program Files/Git/pwu/assets/icon-128x128.png": "15299af872ec621e3e199f412bc2d1d80ef1429f",
+    "C:/Program Files/Git/pwu/main.8701736ab121a981d39b.bundle.js": "ba45545968fc37b2e322afdab655ef98e5bf6247",
+    "C:/Program Files/Git/pwu/assets/icon-152x152.png": "235e0f76d28ce2f1ceff8b7aa57c8f184e103ebb",
+    "C:/Program Files/Git/pwu/polyfills.77d59861e39435768676.bundle.js": "beb3f7129447fb464639e25447ceb200fa2ba87e",
+    "C:/Program Files/Git/pwu/assets/icon-256x256.png": "a50965279f9556c682b9d618bfa69ad02e3c3cdf",
+    "C:/Program Files/Git/pwu/styles.03b5f5f64d9c4bed131d.bundle.css": "2d54a334bf71713644c3c2f6aeed7da1ab2a647c",
+    "C:/Program Files/Git/pwu/assets/icon-512x512.png": "35631a5e4df4f42923a89b637b8f33fae091184e",
+    "C:/Program Files/Git/pwu/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "C:/Program Files/Git/pwu/index.html": "c060e3df2b38538380e4fc401b1f73c431174281"
+  }
+}
