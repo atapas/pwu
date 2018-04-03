@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { UserCardService } from './user-card.service';
-import { User } from './user';
+import { User } from './user.model';
+import { Button } from './button.model';
 
 @Component({
   selector: 'app-user-card',
@@ -11,10 +12,18 @@ import { User } from './user';
 export class UserCardComponent implements OnInit {
 
   public user: User;
+  public button: Button = {
+    text: 'Get me the Next User...',    
+    disabled: false
+  }
 
   constructor(private userCardService: UserCardService) { }
 
   ngOnInit() {
+    if (!navigator.onLine) {
+      this.button.text = 'Sorry, you are offline!';
+      this.button.disabled = true;
+    }
     this.getUser();
   }
 

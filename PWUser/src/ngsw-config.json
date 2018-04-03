@@ -21,6 +21,9 @@
       "resources": {
         "files": [
           "/assets/**"
+        ],
+        "urls": [
+          "https://randomuser.me/api/**"
         ]
       }
     }]
