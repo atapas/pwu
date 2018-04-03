@@ -11,11 +11,22 @@ import { Button } from './button.model';
 })
 export class UserCardComponent implements OnInit {
 
-  public user: User;
   public button: Button = {
     text: 'Get me the Next User...',    
     disabled: false
-  }
+  };
+
+  public user: User = {
+    dob: '',
+    email: '',
+    gender: '',
+    location: '',
+    name: '',
+    nat: '',
+    phone: '',
+    picturePath: '../../assets/icon-512x512.png',
+    userName: ''
+  };
 
   constructor(private userCardService: UserCardService) { }
 
